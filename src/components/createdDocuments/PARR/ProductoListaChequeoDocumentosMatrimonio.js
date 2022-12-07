@@ -123,12 +123,12 @@ const ProductoListaChequeoDocumentosMatrimonio = (props) => {
             <Image
               src={escudocuria}
               alt="random image"
-              style={{ width: "78px", height: "78px", position: "absolute", bottom: "650px" }}
+              style={{ width: "78px", height: "78px", position: "absolute", bottom: "635px" }}
             />
             <Image
               src={props.image}
               alt="random image"
-              style={{ width: "78px", height: "78px", position: "absolute", bottom: "650px", right: "1px" }}
+              style={{ width: "78px", height: "78px", position: "absolute", bottom: "635px", right: "1px" }}
             />
 
             <Text style={styles.titleText}>Diócesis de Alajuela Costa Rica</Text>
@@ -139,7 +139,7 @@ const ProductoListaChequeoDocumentosMatrimonio = (props) => {
             <Text style={styles.boldText}>Documentos enviados a la Parroquia</Text>
 
             <Text style={{ padding: "2px", fontSize: "12px", lineHeight: "0.5px" }}>        </Text>
-            <Text style={{ padding: "2px", fontSize: "12px", marginLeft: "auto" }}>{props.codigo}-LAS-{props.consecutivo}</Text>
+            <Text style={{ padding: "2px", fontSize: "12px", marginLeft: "auto" }}>{props.codigo}-LAS</Text>
             <Text style={{ padding: "2px", fontSize: "12px", lineHeight: "0.5px" }}>        </Text>
 
 
@@ -246,7 +246,7 @@ const ProductoListaChequeoDocumentosMatrimonio = (props) => {
                   <Text style={styles.tableCell}>6</Text>
                 </View>
                 <View style={styles.tableCo2}>
-                  <Text style={styles.tableCell}>Fotocopia del documento de identidad de los testigos</Text>
+                  <Text style={styles.tableCell}>Fotocopia del documento de identidad de los testigos de presentación</Text>
                 </View>
                 <View style={styles.tableCo3}>
                   <Text style={styles.tableCell}></Text>
@@ -261,7 +261,7 @@ const ProductoListaChequeoDocumentosMatrimonio = (props) => {
                   <Text style={styles.tableCell}>7</Text>
                 </View>
                 <View style={styles.tableCo2}>
-                  <Text style={styles.tableCell}>Fotocopia del documento de identidad de los testigos</Text>
+                  <Text style={styles.tableCell}>Fotocopia del documento de identidad de los testigos de matrimonio</Text>
                 </View>
                 <View style={styles.tableCo3}>
                   <Text style={styles.tableCell}></Text>
@@ -301,20 +301,7 @@ const ProductoListaChequeoDocumentosMatrimonio = (props) => {
                 </View>
               </View>
 
-              <View style={styles.tableRow}>
-                <View style={styles.tableCol}>
-                  <Text style={styles.tableCell}>10</Text>
-                </View>
-                <View style={styles.tableCo2}>
-                  <Text style={styles.tableCell}>Acta matrimonial</Text>
-                </View>
-                <View style={styles.tableCo3}>
-                  <Text style={styles.tableCell}></Text>
-                </View>
-                <View style={styles.tableCo3}>
-                  <Text style={styles.tableCell}></Text>
-                </View>
-              </View>
+            
             </View>
 
             <Text style={{ padding: "2px", fontSize: "12px", lineHeight: "0.5px" }}>        </Text>
@@ -327,6 +314,7 @@ const ProductoListaChequeoDocumentosMatrimonio = (props) => {
             <Text style={{ padding: "2px", fontSize: "12px" }}> Firma:</Text>
             <Text style={{ padding: "2px", fontSize: "12px", lineHeight: "0.5px" }}>        </Text>
             <Text style={{ padding: "2px", fontSize: "12px" }} >___________________________</Text>
+            <Text style={{ padding: "2px", fontSize: "12px", lineHeight: "0.5px" }}>        </Text>
             <Text style={{ padding: "2px", fontSize: "12px", lineHeight: "0.5px" }}>        </Text>
             <Text style={{ padding: "2px", fontSize: "12px", lineHeight: "0.5px" }}>        </Text>
 

@@ -86,12 +86,12 @@ const ProductoBoletaInscripcionCatequesisBautismal = (props) => {
             <Image
               src={escudocuria}
               alt="random image"
-              style={{ width: "78px", height: "78px", position: "absolute", bottom: "570px" }}
+              style={{ width: "75px", height: "75px", position: "absolute", bottom: "575px" }}
             />
             <Image
               src={props.image}
               alt="random image"
-              style={{ width: "78px", height: "78px", position: "absolute", bottom: "570px", right: "1px" }}
+              style={{ width: "75px", height: "75px", position: "absolute", bottom: "575px", right: "1px" }}
             />
 
             <Text style={styles.titleText}>Diócesis de Alajuela Costa Rica</Text>

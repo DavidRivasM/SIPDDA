@@ -75,12 +75,12 @@ const ProductoPortadaEnvioDocumentos = (props) => {
               <Image
                 src={escudocuria}
                 alt="random image"
-                style={{ width: "75px", height: "75px", position: "absolute", left: "-100px", top: "-25px" }}
+                style={{ width: "68px", height: "68px", position: "absolute", left: "-100px", top: "-25px" }}
               />
               <Image
               src={props.image}
               alt="random image"
-              style={{ width: "70px", height: "70px", position: "absolute", right: "-100px", top: "-25px" }}
+              style={{ width: "px", height: "68px", position: "absolute", right: "-100px", top: "-25px" }}
             />
               <Text style={styles.baseText}>  </Text>
               <Text style={styles.boldText}>Diocesis de Alajuela - Costa Rica</Text>
